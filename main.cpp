@@ -15,10 +15,10 @@ void main()
 
 	for (int it = 1; it != i; it++)
 	{
+			cout << one<<" ";
 			two = one + two;
 			one = two - one;
+			
 	}
-	res = two;
-	cout << res;
 	
 }
